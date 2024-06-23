@@ -1,0 +1,81 @@
+.footer{
+    display: grid;
+    grid-template-columns: 1fr;
+   gap: 3vw;
+   height: auto;
+    justify-items: center;
+   padding-top: 4vw;
+   padding-bottom:  3vw;
+border-top:1px solid black ;
+}
+.nitc-logo{
+    display: flex;
+    flex-direction: row;
+    gap:4vw;
+}
+.nitc{
+    /* display: flex; */
+   /* margin-left: 10vw; */
+    background-image: url('../../../public/images/image\ 8.png');
+    background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+width: 10vw;
+height: 7vw;
+
+}
+.ragam{
+    display: flex;
+    background-image: url('../../../public/images/Frame.png');
+    background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+width: 21vw;
+height: 7vw;
+
+}
+.socal-media{
+    display: flex;
+    flex-direction: row;
+    gap:5.5vw ;
+    
+}
+.socal-logo{
+    cursor: pointer;
+    display: flex;
+    width: 3.5vw;
+height: 2.5vw;
+    background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+}
+.socal-logo:hover{
+    scale: 1.4;
+    transition: ease-in;
+    transition-duration: 0.3s;
+}
+#insta{
+    background-image: url('../../../public/images/Frame\ 5.png');
+
+}
+#x{
+    background-image: url('../../../public/images/Frame\ 7.png');
+}
+#youtube{
+    background-image: url('../../../public/images/Frame\ 6.png');
+}
+#whatsapp{
+    background-image: url('../../../public/images/Frame\ 8.png');
+}
+.nitc-address{
+    display: flex;
+    flex-direction: column;
+    gap:1vw;
+    width: 100%;
+}
+.name{
+    font-weight: 700;
+}
+.address{
+    font-weight: 400;
+}

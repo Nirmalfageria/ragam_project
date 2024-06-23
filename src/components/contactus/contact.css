@@ -1,0 +1,76 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+/* justify-content: space-between; */
+align-items: center;
+margin-top: 10vw;
+margin-bottom: 7vw;
+border: 1px, 0px, 0px, 0px;
+gap: 6vw;
+height:  auto               ;
+}
+.contact-heading{
+    display: flex;
+   
+font-family: IBM Plex Serif;
+font-size: 48px;
+font-weight: 600;
+line-height: 62.4px;
+letter-spacing: 0em;
+text-align: left;
+margin-right: 45.5vw;
+@media(max-width:400px){
+ margin-left: 10vw;   
+}
+}
+.contact-card{
+    display: flex;
+gap:5vw;
+flex-wrap: wrap;
+justify-content: center;
+@media(max-width:550px){
+    width: 70%;
+  }
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 259px;
+height: 259px;
+border:1px solid black;
+border-radius: 1.5vw;
+justify-content: center;
+align-items: center;
+gap:1vw;
+@media(max-width:550px){
+   /* width: 100%; */
+    }
+}
+.logo-contact{
+    width:120px;
+    height: 105px;
+}
+#logo-1{
+    background-image: url('../../../public/images/Frame\ 33.jpg');
+}
+#logo-2{
+    background-image: url('../../../public/images/Frame\ 35.jpg');
+}
+.logo-name{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+.address-nitc{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    letter-spacing: 0em;
+    text-align: center;
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.5);
+}
